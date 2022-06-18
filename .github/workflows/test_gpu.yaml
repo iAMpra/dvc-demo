@@ -7,5 +7,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: cml_run
         run: |
-          echo 'Hi GPU' >> report.md
+          echo 'Hi ' >> report.md
           cml send-comment report.md
